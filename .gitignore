@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ML offline training store & artifacts (rebuilt by running the notebooks)
+ml/data/
+ml/artifacts/
+ml/reports/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Env
+.env
+backend/.env
+
+# SQLite dev libs
+*.db
+
+*.pkl
